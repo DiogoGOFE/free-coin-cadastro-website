@@ -1,0 +1,28 @@
+@media screen and (min-width: 744px) and (max-width: 1280px){
+
+    body {
+        margin: 80px;
+    }
+
+    img {
+        margin-top: 80px;
+        width: 240px;
+        height: 144px;
+    }
+    
+
+    .FillxHUG h1 {
+        font-size: 32px;
+        }
+    
+    .FillxHUG p {
+        font-size: 16px;
+        }
+
+     .HUG input{
+     width: 584px;
+        
+        
+            
+    }
+}

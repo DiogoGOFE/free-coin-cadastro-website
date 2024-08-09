@@ -1,0 +1,110 @@
+:root {
+    --Color-Background: #FFFFFF;
+    --Color-Botao: #F9D266;
+    --Color-BotaoText: #FFFFFF;
+    --Color-Texto1: #2C3E50;
+    --Color-Texto2: #000000;
+    --Color-Bordar: #E9EBFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Baloo 2", sans-serif;
+}
+
+body {
+    background-color: var(--Color-Background);
+    margin: 20px;
+    /* Posição */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+ 
+}
+
+img {
+    margin-top: 40px;
+    width: 180px;
+    height: 108px;
+}
+
+
+.FillxHUG {
+    /* Posição */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.FillxHUG h1 {
+color: var(--Color-Texto1);
+font-size: 24px;
+font-weight: 800;
+text-align: center;
+
+}
+
+.FillxHUG p {
+    color: var(--Color-Texto1);
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    
+    }
+
+    .FillxHUG p samp{
+        font-weight: 600;
+     
+        
+        }
+
+.HUG {
+    /* Posição */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+
+.HUG label {
+    color: var(--Color-Texto2);
+    font-family: Baloo 2;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 15px;
+    margin-right: 15px;
+
+}
+
+.HUG input{
+    width: 360px;
+    height: 48px;
+    padding-left: 16px;
+    border-radius: 12px;
+    border: solid 1px; 
+    border-color: var(--Color-Bordar);
+
+    
+}
+
+button{
+background-color: var(--Color-Botao);
+width: 390px;
+height: 54px;
+padding: 16px;
+
+
+border-radius: 100px;
+border: none;
+
+
+font-size: 14px;
+font-weight:700;
+color: var(--Color-BotaoText);
+
+}
